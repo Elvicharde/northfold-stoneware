@@ -54,54 +54,56 @@
         aria-labelledby="product-title"
       >
         <div class="gallery">
-          <div class="hero-image">
-            <img
-              src="assets/images/mug-oat-sunlight.png"
-              alt="Oatmeal glazed stoneware mug in a sunlit studio"
-              fetchpriority="high"
-            />
+          <div class="gallery-group gallery--oat">
+            <fieldset class="gallery-views">
+              <legend class="visually-hidden">Oat glaze product images</legend>
+              <div class="hero-image">
+                <img class="view--sunlight" src="assets/images/mug-oat-sunlight.png" alt="Oat glazed stoneware mug in sunlight" fetchpriority="high" />
+                <img class="view--front" src="assets/images/mug-oat-front.png" alt="Front view of the Oat glazed stoneware mug" />
+                <img class="view--interior" src="assets/images/mug-oat-interior.png" alt="Interior of the Oat glazed stoneware mug" />
+                <img class="view--lifestyle" src="assets/images/mug-oat-lifestyle.png" alt="Oat glazed stoneware mug in a morning setting" />
+              </div>
+              <div class="thumbnails">
+                <div class="thumbnail-option"><input class="visually-hidden" type="radio" name="gallery-oat" id="oat-view-sunlight" value="sunlight" checked /><label class="thumbnail" for="oat-view-sunlight"><img src="assets/images/mug-oat-sunlight.png" alt="" /><span class="visually-hidden">Oat glaze, sunlight view</span></label></div>
+                <div class="thumbnail-option"><input class="visually-hidden" type="radio" name="gallery-oat" id="oat-view-front" value="front" /><label class="thumbnail" for="oat-view-front"><img src="assets/images/mug-oat-front.png" alt="" /><span class="visually-hidden">Oat glaze, front view</span></label></div>
+                <div class="thumbnail-option"><input class="visually-hidden" type="radio" name="gallery-oat" id="oat-view-interior" value="interior" /><label class="thumbnail" for="oat-view-interior"><img src="assets/images/mug-oat-interior.png" alt="" /><span class="visually-hidden">Oat glaze, interior view</span></label></div>
+                <div class="thumbnail-option"><input class="visually-hidden" type="radio" name="gallery-oat" id="oat-view-lifestyle" value="lifestyle" /><label class="thumbnail" for="oat-view-lifestyle"><img src="assets/images/mug-oat-lifestyle.png" alt="" /><span class="visually-hidden">Oat glaze, lifestyle view</span></label></div>
+              </div>
+            </fieldset>
           </div>
-          <div class="thumbnails" aria-label="More product views">
-            <button
-              class="thumbnail is-active"
-              type="button"
-              aria-label="Front view, selected"
-            >
-              <img
-                src="assets/images/mug-oat-sunlight.png"
-                alt=""
-                loading="lazy"
-              />
-            </button>
-            <button class="thumbnail" type="button" aria-label="Side view">
-              <img
-                src="assets/images/mug-oat-front.png"
-                alt=""
-                loading="lazy"
-              />
-            </button>
-            <button
-              class="thumbnail"
-              type="button"
-              aria-label="View inside the mug"
-            >
-              <img
-                src="assets/images/mug-oat-interior.png"
-                alt=""
-                loading="lazy"
-              />
-            </button>
-            <button
-              class="thumbnail"
-              type="button"
-              aria-label="Mug in a morning setting"
-            >
-              <img
-                src="assets/images/mug-oat-lifestyle.png"
-                alt=""
-                loading="lazy"
-              />
-            </button>
+          <div class="gallery-group gallery--slate">
+            <fieldset class="gallery-views">
+              <legend class="visually-hidden">Slate glaze product images</legend>
+              <div class="hero-image">
+                <img class="view--sunlight" src="assets/images/mug-slate-sunlight.png" alt="Slate glazed stoneware mug in sunlight" />
+                <img class="view--front" src="assets/images/mug-slate-front.png" alt="Front view of the Slate glazed stoneware mug" />
+                <img class="view--interior" src="assets/images/mug-slate-interior.png" alt="Interior of the Slate glazed stoneware mug" />
+                <img class="view--lifestyle" src="assets/images/mug-slate-lifestyle.png" alt="Slate glazed stoneware mug in a morning setting" />
+              </div>
+              <div class="thumbnails">
+                <div class="thumbnail-option"><input class="visually-hidden" type="radio" name="gallery-slate" id="slate-view-sunlight" value="sunlight" checked /><label class="thumbnail" for="slate-view-sunlight"><img src="assets/images/mug-slate-sunlight.png" alt="" /><span class="visually-hidden">Slate glaze, sunlight view</span></label></div>
+                <div class="thumbnail-option"><input class="visually-hidden" type="radio" name="gallery-slate" id="slate-view-front" value="front" /><label class="thumbnail" for="slate-view-front"><img src="assets/images/mug-slate-front.png" alt="" /><span class="visually-hidden">Slate glaze, front view</span></label></div>
+                <div class="thumbnail-option"><input class="visually-hidden" type="radio" name="gallery-slate" id="slate-view-interior" value="interior" /><label class="thumbnail" for="slate-view-interior"><img src="assets/images/mug-slate-interior.png" alt="" /><span class="visually-hidden">Slate glaze, interior view</span></label></div>
+                <div class="thumbnail-option"><input class="visually-hidden" type="radio" name="gallery-slate" id="slate-view-lifestyle" value="lifestyle" /><label class="thumbnail" for="slate-view-lifestyle"><img src="assets/images/mug-slate-lifestyle.png" alt="" /><span class="visually-hidden">Slate glaze, lifestyle view</span></label></div>
+              </div>
+            </fieldset>
+          </div>
+          <div class="gallery-group gallery--moss">
+            <fieldset class="gallery-views">
+              <legend class="visually-hidden">Moss glaze product images</legend>
+              <div class="hero-image">
+                <img class="view--sunlight" src="assets/images/mug-moss-sunlight.png" alt="Moss glazed stoneware mug in sunlight" />
+                <img class="view--front" src="assets/images/mug-moss-front.png" alt="Front view of the Moss glazed stoneware mug" />
+                <img class="view--interior" src="assets/images/mug-moss-interior.png" alt="Interior of the Moss glazed stoneware mug" />
+                <img class="view--lifestyle" src="assets/images/mug-moss-lifestyle.png" alt="Moss glazed stoneware mug in a morning setting" />
+              </div>
+              <div class="thumbnails">
+                <div class="thumbnail-option"><input class="visually-hidden" type="radio" name="gallery-moss" id="moss-view-sunlight" value="sunlight" checked /><label class="thumbnail" for="moss-view-sunlight"><img src="assets/images/mug-moss-sunlight.png" alt="" /><span class="visually-hidden">Moss glaze, sunlight view</span></label></div>
+                <div class="thumbnail-option"><input class="visually-hidden" type="radio" name="gallery-moss" id="moss-view-front" value="front" /><label class="thumbnail" for="moss-view-front"><img src="assets/images/mug-moss-front.png" alt="" /><span class="visually-hidden">Moss glaze, front view</span></label></div>
+                <div class="thumbnail-option"><input class="visually-hidden" type="radio" name="gallery-moss" id="moss-view-interior" value="interior" /><label class="thumbnail" for="moss-view-interior"><img src="assets/images/mug-moss-interior.png" alt="" /><span class="visually-hidden">Moss glaze, interior view</span></label></div>
+                <div class="thumbnail-option"><input class="visually-hidden" type="radio" name="gallery-moss" id="moss-view-lifestyle" value="lifestyle" /><label class="thumbnail" for="moss-view-lifestyle"><img src="assets/images/mug-moss-lifestyle.png" alt="" /><span class="visually-hidden">Moss glaze, lifestyle view</span></label></div>
+              </div>
+            </fieldset>
           </div>
         </div>
         <div class="product-info">
@@ -117,7 +119,9 @@
             <fieldset class="glaze-selector">
               <legend>
                 Glaze <span aria-hidden="true">—</span>
-                <span class="selected-glaze">Oat</span>
+                <span class="selected-glaze selected-glaze--oat">Oat</span>
+                <span class="selected-glaze selected-glaze--slate">Slate</span>
+                <span class="selected-glaze selected-glaze--moss">Moss</span>
               </legend>
               <div class="swatches">
                 <label class="swatch oat"
